@@ -8,7 +8,7 @@ name = "Gibson L-5 CES"
 year = 1922
 cost = 16035.40
 
-# The ‘old’ manual way to format text with string concatenation:
+# The old manual way to format text with string concatenation:
 print("My guitar: " + name + ", first made in " + str(year))
 
 # A better way - using str.format():
@@ -24,16 +24,16 @@ numbers = [1, 19, 123, 456, -25]
 for i in range(len(numbers)):
     print("Number {0} is {1:>5}".format(i + 1, numbers[i]))
 
-# Another (nicer) version of the above loop using the enumerate function
+# A version of the above loop using the enumerate function, useful when you want the index and value
 for i, number in enumerate(numbers):
     print("Number {0} is {1:>5}".format(i + 1, number))
 
 # TODO: Using a for loop with the range function and string formatting,
-
-for number in range(0, 101, 50):
+for number in range(0, 151, 50):
     print("{:3}".format(number))
 
 # produce the following output:
 #   0
 #  50
 # 100
+# 150
