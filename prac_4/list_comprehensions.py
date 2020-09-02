@@ -42,3 +42,4 @@ print(numbers)
 # greater than 9 from the numbers (not strings) you just created
 big_number = [number for number in numbers if number > 9]
 print(big_number)
+
