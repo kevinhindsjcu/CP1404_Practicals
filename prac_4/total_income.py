@@ -4,7 +4,7 @@ Starter code for cumulative total income program
 """
 
 
-def main():
+def main(): 
     """Display income report for incomes over a given number of months."""
     incomes = []
     number_of_months = int(input("How many months? "))
